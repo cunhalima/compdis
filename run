@@ -1,6 +1,5 @@
 #!/bin/bash
-echo "Bash version ${BASH_VERSION}..."
-for i in {0..99}
+for i in {0..3}
   do
-     ./a.py $i
+     ./node.py $i &
  done
